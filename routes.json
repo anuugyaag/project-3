@@ -1,0 +1,136 @@
+[
+    {
+        "VPC": "vpc-0592cb2ddcc9797a5",
+        "Table": "rtb-0afcf7bb797fcd863",
+        "Routes": [
+            {
+                "Destination": "10.0.0.0/24",
+                "Gateway": "local"
+            }
+        ]
+    },
+    {
+        "VPC": "vpc-08712dccc114af956",
+        "Table": "rtb-03846fc9391892b1c",
+        "Routes": [
+            {
+                "Destination": "10.0.0.0/16",
+                "Gateway": "local"
+            }
+        ]
+    },
+    {
+        "VPC": "vpc-093e2ff7134e94610",
+        "Table": "rtb-06b37650e43ca1905",
+        "Routes": [
+            {
+                "Destination": "10.0.0.0/16",
+                "Gateway": "local"
+            },
+            {
+                "Destination": "0.0.0.0/0",
+                "Gateway": "igw-09c4a07ece1a4bd3f"
+            }
+        ]
+    },
+    {
+        "VPC": "vpc-08712dccc114af956",
+        "Table": "rtb-08be46d58717e8524",
+        "Routes": [
+            {
+                "Destination": "10.0.0.0/16",
+                "Gateway": "local"
+            },
+            {
+                "Destination": "0.0.0.0/0",
+                "Gateway": "igw-00d552c1000509303"
+            }
+        ]
+    },
+    {
+        "VPC": "vpc-0956bd4896225a585",
+        "Table": "rtb-0f6598b8eddb0289a",
+        "Routes": [
+            {
+                "Destination": "10.0.0.0/16",
+                "Gateway": "local"
+            }
+        ]
+    },
+    {
+        "VPC": "vpc-0956bd4896225a585",
+        "Table": "rtb-04458b804970c7d37",
+        "Routes": [
+            {
+                "Destination": "10.0.0.0/16",
+                "Gateway": "local"
+            },
+            {
+                "Destination": "0.0.0.0/0",
+                "Gateway": "igw-0b461a0d622c52f34"
+            }
+        ]
+    },
+    {
+        "VPC": "vpc-08712dccc114af956",
+        "Table": "rtb-0b77d076eb49be198",
+        "Routes": [
+            {
+                "Destination": "10.0.0.0/16",
+                "Gateway": "local"
+            },
+            {
+                "Destination": "0.0.0.0/0",
+                "Gateway": "igw-00d552c1000509303"
+            }
+        ]
+    },
+    {
+        "VPC": "vpc-093e2ff7134e94610",
+        "Table": "rtb-03e18791825eb375e",
+        "Routes": [
+            {
+                "Destination": "10.0.0.0/16",
+                "Gateway": "local"
+            }
+        ]
+    },
+    {
+        "VPC": "vpc-0956bd4896225a585",
+        "Table": "rtb-0c6e7ef9b5a5d7814",
+        "Routes": [
+            {
+                "Destination": "10.0.0.0/16",
+                "Gateway": "local"
+            },
+            {
+                "Destination": null,
+                "Gateway": "vpce-01f81685480cd37cc"
+            }
+        ]
+    },
+    {
+        "VPC": "vpc-0956bd4896225a585",
+        "Table": "rtb-0db2a9f3d9b94cb59",
+        "Routes": [
+            {
+                "Destination": "10.0.0.0/16",
+                "Gateway": "local"
+            },
+            {
+                "Destination": null,
+                "Gateway": "vpce-01f81685480cd37cc"
+            }
+        ]
+    },
+    {
+        "VPC": "vpc-0f1553e8a87b1b2f4",
+        "Table": "rtb-0f0ef8423adf9425a",
+        "Routes": [
+            {
+                "Destination": "10.0.0.0/22",
+                "Gateway": "local"
+            }
+        ]
+    }
+]
